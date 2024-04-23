@@ -4,16 +4,14 @@ import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class AccountDtoTest {
+class AccountDtoLombokTest {
     @Test
     void accountDto() {
         //given
         //when
         //then
 
-        AccountDto accountDto = new AccountDto(
+        AccountDtoLombok accountDto = new AccountDtoLombok(
                 "계정번호",
                 "여름",
                 LocalDateTime.now()

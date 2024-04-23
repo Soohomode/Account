@@ -1,7 +1,6 @@
 package com.example.account;
 
 import lombok.*;
-import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
 import java.time.LocalDateTime;
@@ -23,7 +22,7 @@ import java.time.LocalDateTime;
     또한 equals 를 오버라이드 하고 있기에 원치 않은 equals 를 해버릴수있기에
  */
 @Slf4j
-public class AccountDto {
+public class AccountDtoLombok {
     private String accountNumber;
     private String nickname;
     private LocalDateTime registeredAt;
